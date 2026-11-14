@@ -1,0 +1,23 @@
+{
+  "name": "dice-roller",
+  "version": "1.0.0",
+  "description": "Command-line dice roller supporting standard notation such as 2d6+3",
+  "main": "dice.js",
+  "bin": {
+    "dice": "dice.js"
+  },
+  "scripts": {
+    "start": "node dice.js",
+    "demo": "node dice.js 2d6+3"
+  },
+  "keywords": ["dice", "roller", "dnd", "cli", "nodejs"],
+  "author": "Supreetgg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supreetgg/dice-roller.git"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
